@@ -188,13 +188,13 @@ Here is where the magic happens! On our `View Controller`, we will write the cod
         - Assign `text` property of the `textView` that will display the `synopsis` to the `synopsis` from the `movie`.
             
 ## Mock Data
-- Take a breath here we have done a lot, youre crushing it! Now we have one small step before we are ready to run our app.
+- Take a breath here we have done a lot, you're crushing it! Now we have one small step before we are ready to run our app.
 
-- Navigate to our AppDelegate this is probably located in your Resources folder. Their should be a a function here called `didFinishLaunching` we are going initilize an object here that we can access throughout our app! We want to do this here becuase our mock object will be initilized on launch of the app. 
+- Navigate to our AppDelegate this is probably located in your Resources folder. Their should be a a function here called `didFinishLaunching` we are going initialize an object here that we can access throughout our app! We want to do this here because our mock object will be initialized on launch of the app. 
 
 - Mock data is just some data we are creating ourselves that we can pass around and populate our app with to ensure that it is working as we intended(This will come in handy in a couple weeks when we get into networking!)
 
-- Alright go ahead and initilize a movie object in the func `didFinishLaunching` before we look at how do this I want you to read through the code below and really try to think about what this line of code is doing. How are we creating this object? where is it being stored? where are we using this data?
+- Alright go ahead and initialize a movie object in the func `didFinishLaunching` before we look at how do this I want you to read through the code below and really try to think about what this line of code is doing. How are we creating this object? where is it being stored? where are we using this data?
 
 `MovieController.sharedInstance.createMovie(name: "The Mummy", rating: nil, synopsis: "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.", poster: UIImage(imageLiteralResourceName: "theMummy") )`
 
