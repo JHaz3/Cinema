@@ -16,22 +16,7 @@ Students who complete this project independently or as a pairing will showcase t
 
 ![theMummy](https://user-images.githubusercontent.com/60407243/167456037-68d03021-a640-4aa8-bf16-b980a0b6ae20.png)
 
-- **Before we begin, if you have not, please `Fork` and `Clone` the `Cinema` repository. [Stateful Cinema](https://github.com/Stateful-Academy/Cinema).**
-- To fork click on the `Fork` button in the top-right portion of the repo's webpage. This will navigate you to a new webpage titled `Create a new Fork` once here click the `Create Fork` button which will create a for of the repo on your Github account, awesome! 
-
-- After clicking that button you should be navigated to the forked repo on your account in the top left of the webpage you should see `yourGithubUsername/Cinema` once here look to the top right of this webpage and click on the `Code` button this will open a small menu with a link, copy that link.
--   Phew that was a lot! Dont worry we are almost done and we can get coding!
--   Now open `Terminal` and navigate into your Developer directory, then into Week 2, Day 1. 
--   Paste that Link that we copied from github. With the command 
->   `git clone pasteLinkHere`
--   This will clone the repo and create a local repo on our machine! How cool is that?! Next we will need to Navigate one layer deeper into the project                     directory(the same way we did above)
--   Once you have forked and cloned this repo please change to the `starter` branch. To do this you can use the `checkout` command in git.
-
-```bash
-git checkout -b starter
-```
-
-Once here go ahead and open up the project and we can finally get coding! 
+- **Before we begin, please download the zip file and open it.
 
 We have deleted both the `ViewController.swift` file, this way you have a blank slate to build from.
 
