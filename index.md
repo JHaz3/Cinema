@@ -14,16 +14,18 @@ Students who complete this project independently or as a pairing will showcase t
 
 ---
 
-<img src-"https://user-images.githubusercontent.com/60407243/167452523-c0d0b0fd-b1c0-400d-9bbe-409601eccca1.png" width-"200" height-"200">
+![theMummy](https://user-images.githubusercontent.com/60407243/167456037-68d03021-a640-4aa8-bf16-b980a0b6ae20.png)
 
-> **Before we begin, if you have not, please `Fork` and `Clone` the `Cinema` repository. [Stateful Cinema](https://github.com/Stateful-Academy/Cinema).**
->   To fork click on the `Fork` button in the topright portion of the repo's webpage. This will navigate you to a new webpage titled `Create a new Fork`once here click the `Create Fork` button which will create a for of the repo on your Github account, awesome! After clicking that button you should be navigated to the forked repo on your account in the top left of the webpage you should see `yourGithubUsername/Cinema` once here look to the top right of this webpage and click on the `Code` button this will open a small menu with a link, copy that link.
->   Phew that was a lot! Dont worry we are almost done and we can get coding!
->   Now open `Terminal` and navigate into your Developer directory, then into Week 2, Day 1. 
->   Paste that Link that we copied from github. With the command 
+- **Before we begin, if you have not, please `Fork` and `Clone` the `Cinema` repository. [Stateful Cinema](https://github.com/Stateful-Academy/Cinema).**
+- To fork click on the `Fork` button in the topright portion of the repo's webpage. This will navigate you to a new webpage titled `Create a new Fork`once here click the `Create Fork` button which will create a for of the repo on your Github account, awesome! 
+
+- After clicking that button you should be navigated to the forked repo on your account in the top left of the webpage you should see `yourGithubUsername/Cinema` once here look to the top right of this webpage and click on the `Code` button this will open a small menu with a link, copy that link.
+-   Phew that was a lot! Dont worry we are almost done and we can get coding!
+-   Now open `Terminal` and navigate into your Developer directory, then into Week 2, Day 1. 
+-   Paste that Link that we copied from github. With the command 
 >   `git clone pasteLinkHere`
->   This will clone the repo and create a local repo on our machine! How cool is that?! Next we will need to Navigate one layer deeper into the project                     directory(the same way we did above)
->   Once you have forked and cloned this repo please change to the `starter` branch. To do this you can use the `checkout` command in git.
+-   This will clone the repo and create a local repo on our machine! How cool is that?! Next we will need to Navigate one layer deeper into the project                     directory(the same way we did above)
+-   Once you have forked and cloned this repo please change to the `starter` branch. To do this you can use the `checkout` command in git.
 
 ```bash
 git checkout -b starter
@@ -184,20 +186,21 @@ Here is where the magic happens! On our `View Controller`, we will write the cod
         - Assign the `image` property of the `imageView` to the `image` from the `movie`
         - Assign the `text` property of the `label` that will display the `name` to the `name` from the `movie`
         - Assign `text` property of the `textView` that will display the `synopsis` to the `synopsis` from the `movie`.
-        
-        ## Mock Data
-Take a breath here we have done a lot, youre crushing it! Now we have one small step before we are ready to run our app.
-Navigate to our AppDelegate this is probably located in your Resources folder. Their should be a a function here called `didFinishLaunching` we are going initilize an object here that we can access throughout our app! We want to do this here becuase our mock object will be initilized on launch of the app. 
+            
+## Mock Data
+- Take a breath here we have done a lot, youre crushing it! Now we have one small step before we are ready to run our app.
 
-Mock data is just some data we are creating ourselves that we can pass around and populate our app with to ensure that it is working as we intended(This will come in handy in a couple weeks when we get into networking!)
+- Navigate to our AppDelegate this is probably located in your Resources folder. Their should be a a function here called `didFinishLaunching` we are going initilize an object here that we can access throughout our app! We want to do this here becuase our mock object will be initilized on launch of the app. 
 
-Alright go ahead and initilize a movie object in the func `didFinishLaunching` before we look at how do this I want you to read through the code below and really try to think about what this line of code is doing. How are we creating this object? where is it being stored? where are we using this data?
+- Mock data is just some data we are creating ourselves that we can pass around and populate our app with to ensure that it is working as we intended(This will come in handy in a couple weeks when we get into networking!)
+
+- Alright go ahead and initilize a movie object in the func `didFinishLaunching` before we look at how do this I want you to read through the code below and really try to think about what this line of code is doing. How are we creating this object? where is it being stored? where are we using this data?
 
 `MovieController.sharedInstance.createMovie(name: "The Mummy", rating: nil, synopsis: "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.", poster: UIImage(imageLiteralResourceName: "theMummy") )`
 
-We used The Mummy for our example but you should use whatever movie youd like! 
+- We used The Mummy for our example but you should use whatever movie youd like! 
 The real final step of this application is to find and Image for our movie object, add that to our Assets and display the image for our movie.
 
-Okay! Build and run your app! Test the functionality and fix any bugs present.
+- Okay! Build and run your app! Test the functionality and fix any bugs present.
 
 ### Really great work! Be sure to commit the completed project to Github.
